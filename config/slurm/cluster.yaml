@@ -1,5 +1,5 @@
 __default__:
-  jobname: "{rule}.{wildcards}"
+  jobname: "{rule}"
   nodes: 1
   ntaskspernode: 1
   cpuspertask: 1
