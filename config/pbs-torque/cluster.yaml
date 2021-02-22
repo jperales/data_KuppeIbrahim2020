@@ -1,0 +1,19 @@
+__default__:
+  jobname: "{rule}.{wildcards}"
+  nodes: 1
+  ppn: 1
+  pmem: "1gb"
+  walltime: "5:00"
+  queue: "short"
+  jobout: "oe"
+  outdir: "logs/{rule}.{wildcards.id}"
+
+run_SeuratObject:
+  ppn: 1
+  walltime: "40:00"
+  pmem: "16gb"
+
+build_sce:
+  ppn: 1
+  walltime: "40:00"
+  pmem: "16gb"
