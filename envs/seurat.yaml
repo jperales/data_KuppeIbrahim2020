@@ -1,0 +1,7 @@
+channels:
+ - conda-forge
+ - r
+dependencies:
+ - r-base=4.0
+ - r-matrix
+ - r-seurat
